@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    font-style: TT Norms;	
+	line-height: 1.6;
+    
+}
+.wrapper{
+    width: 100%;
+}
+
+header{
+    margin: 30px 50px 30px 40px;
+    font-style: unset;
+    font-size: 20px;
+    
+}
+
+.line{
+    border-left: 2px solid  #707070 ;
+    
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+
+.content1{
+    display: block;
+    background-color: #FEED92;
+    height:700px ;
+    overflow: hidden;
+}
+.box{
+
+    padding-bottom: 60px  ;
+    display: flex;
+    
+}
+
+.left{
+display: block;
+width: 100%;    
+margin-top: 100px;
+margin-left: 250px;
+
+font-style: TT Norms;
+
+}
+
+#img1{
+    width:380px;
+    height:450px;
+    margin: 230px 60px 0px 500px ;
+    position: relative;
+    
+    
+}
+
+#img2{
+    position: absolute;
+    top:150px;
+    left:510px;
+    width:45%;
+    height:380px;
+    margin: 118px 50px 200px 215px;
+}
+
+.left>h2{
+    font-style: TT Norms;
+    font-weight: bolder;
+    font-size: 2rem;
+    
+
+    
+}
+button{
+    background-color:#00B5E1 ;
+    border: 10px;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+input{
+
+    padding:12px ;
+    width:100% ;
+    height:40px;
+    border-style: solid;
+    border-color: #B1B1B1;
+    border-radius: 5px;
+    }
+.details , p{
+    padding-top: 35px;
+    
+}
+.details ul{
+    width: 100%;
+}
+.details>div{
+    padding-bottom:15px;
+ 
+}
+/* content2 --------------------------------------------------------------------------------------------------- */
+.box-info{
+
+    margin: 36px 318px 0px 318px;
+    max-width: 100% ;
+    display: grid;
+}
+
+.info{
+           
+    text-align: center;
+    max-width: 100%;
+    
+   
+}
+
+.info h4 {
+    margin-top:40px ;
+}
+.info h4, p{
+    margin-left: 270px;
+    text-align: justify;
+    max-width: 100%;
+}
+
+.img3{
+
+ float: left;
+ width: auto;
+ 
+} 
+
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+  
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active1, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* content3 */
+
+  .content3{
+    height: 100%;
+	/*Image only BG fallback*/
+	
+	/*background = gradient + image pattern combo*/
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+
+
+  }
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  /*form styles*/
+#msform {
+	width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active2:before,  #progressbar li.active2:after{
+	background: #27AE60;
+	color: white;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: #007b5e;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width:375px){
+    *{
+        margin: 0;
+        padding:0 ;
+    }
+    header{
+
+        display: none;
+    }
+
+    .left{
+        display: block;
+        width: fit-content;    
+        margin-left: 36px;
+        z-index: 1;
+        
+        
+        }
+        .left>h2{
+            width: max-content;
+            font-size: 2rem;
+            margin: 0;
+            
+        
+            
+        }
+        button{
+            background-color:#00B5E1 ;
+            border: 10px;
+            border-radius: 6px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            width: 100%;
+        }
+        
+        input{
+        
+            padding:12px ;
+            width:100% ;
+            height:40px;
+            border-style: solid;
+            border-color: #B1B1B1;
+            border-radius: 5px;
+            }
+        .details , p{
+            padding-top: 35px;
+            
+        }
+        .details ul{
+            width: max-content;
+        }
+        .details>div{
+            padding-bottom:15px;
+        }
+
+
+
+        #img1{
+            width:320px;
+            height: 400px;
+            margin-left: -230px;
+            margin-top:310px ;
+       
+        }
+        
+        #img2{
+           display: none;
+           margin: 0;
+        }
+        
+     
+.box-info{
+
+   margin: 0;
+    max-width: 100% ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.info h4 {
+    margin-top:40px ;
+}
+.info h4, p{
+   margin: 0;
+   width: fit-content;
+   text-align: justify;
+   margin: 5%;
+ 
+}
+
+.img3{
+    width:30% ;
+    text-align: center;
+    transform: translate(130px,420px);
+    display: flex;
+
+ 
+} 
+
+
+.dot-container {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    
+  
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active1, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
